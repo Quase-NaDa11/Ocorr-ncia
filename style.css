@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 100%;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2D762D;
+    color: white;
+    
+}
+.tudoo{
+
+}
+.cima{
+
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.primeira{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 51px;
+    text-align: center;
+}
+.titulo h1{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 51px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.estudante{
+    margin-left: 73px;
+    margin-top: 20px;
+}
+.estudante input{
+    padding: 15px;
+     border-radius: 8px;
+      border: none;
+       width: 753px;
+       outline: none;
+
+    
+}
+.tudo{ 
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+  
+   margin-left: 73px;
+    text-align: center;
+    
+}
+
+   
+
+.prof{
+    
+    margin-left: 73px;
+    margin-top: 15px;
+    
+}
+.prof input{
+    padding: 15px;
+    border-radius: 8px;
+     border: none;
+      width: 753px;
+      outline: none;
+}
+
+
+
+.descricao{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 51px;
+    outline: none;
+   
+    padding-top: 20px;
+}
+.encaminhamento{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 51px;
+   
+    padding-top: 20px;
+}
+.recebimento{
+   margin-left: 73px;
+   margin-top: 15px;
+}
+.responsavel{
+    margin-left: 73px;
+    margin-top: 15px;
+    
+}
+.responsavel input{
+    width: 753px;
+    height: 30px;
+}
+.data{
+    margin-top: 15px;
+}
