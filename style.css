@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.tudoo{
+    border: 1px solid black;
+    background-image: linear-gradient(-0.2turn,   orange, green); 
+}
 body{
     position: absolute;
     top: 50%;
@@ -10,15 +14,23 @@ body{
     transform: translate(-50%,-50%);
     width: 900px;
     height: 100%;
-    border: 1px solid black;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #2D762D;
+background-color:green;
     color: white;
     
 }
-.tudoo{
-
+input{
+    font-size: 15px;
 }
+textarea{
+    font-size: 15px;
+}
+label{
+   padding: 5px;
+   
+}
+
 .cima{
 
     margin-top: 5px;
@@ -61,16 +73,37 @@ body{
 
     
 }
+.estudante label{
+    
+}
+
 .tudo{ 
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    align-content: center;
-  
+   
    margin-left: 73px;
     text-align: center;
     
+}
+.aula select{
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.situacao select{
+    padding: 8px 15px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.turma select{
+    padding: 8px 15px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
 }
 
    
@@ -102,6 +135,11 @@ body{
    
     padding-top: 20px;
 }
+.descricao textarea{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
 .encaminhamento{
     display: flex;
     align-items: center;
@@ -111,6 +149,11 @@ body{
     gap: 51px;
    
     padding-top: 20px;
+}
+.encaminhamento textarea{
+    outline: none;
+    border: none;
+    border-radius: 8px;
 }
 .recebimento{
    margin-left: 73px;
@@ -122,9 +165,44 @@ body{
     
 }
 .responsavel input{
-    width: 753px;
-    height: 30px;
+    padding: 15px;
+     border-radius: 8px;
+      border: none;
+       width: 753px;
+       outline: none;
+
+    
 }
 .data{
     margin-top: 15px;
+    margin-left: 73px;
+
+}
+.data input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.buton{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 51px;
+    padding-top: 20px;
+    
+}
+.buton button{
+   background-color: rgb(255, 123, 0);
+   color: white;
+   padding: 10px 25px;
+   border-radius: 20px;
+   cursor: pointer;
+
+
+}
+.nada{
+    margin-top: 20px;
 }
